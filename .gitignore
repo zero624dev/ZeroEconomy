@@ -23,3 +23,5 @@ jspm_packages/
 
 # quick.db file
 json.sqlite
+
+config.json
