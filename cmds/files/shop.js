@@ -14,7 +14,7 @@ module.exports = {
             {
               title: "상점",
               description: "상점 카테고리를 선택해주세요.",
-              color: core.colors.accent
+              color: core.colors.blue
             }
           ],
           components: [

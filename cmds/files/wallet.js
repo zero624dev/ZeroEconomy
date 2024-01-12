@@ -15,7 +15,7 @@ module.exports = {
                 fields: [
                   { name: "현금", value: `${(wallet ?? 0).toLocaleString()} 원`, inline: false },
                 ],
-                color: core.colors.accent
+                color: core.colors.blue
               }
             ]
           });

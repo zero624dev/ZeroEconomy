@@ -34,7 +34,7 @@ module.exports = {
       const { client } = interaction;
       const { core } = client;
       const colors = {
-        1: core.colors.accent,
+        1: core.colors.blue,
         2: core.colors.green,
         3: core.colors.red
       };

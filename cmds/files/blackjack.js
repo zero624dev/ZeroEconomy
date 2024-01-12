@@ -54,7 +54,7 @@ function game(interaction, bjData, action) {
       win: {
         text: "승리",
         moneyText: "수익",
-        color: core.colors.accent
+        color: core.colors.blue
       },
       lose: {
         text: "패배",

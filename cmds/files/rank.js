@@ -100,7 +100,7 @@ module.exports = {
                   inline: true
                 };
               }),
-              color: core.colors.accent
+              color: core.colors.blue
             }
           ],
           components: [
@@ -146,7 +146,7 @@ module.exports = {
                   inline: true
                 };
               }),
-              color: core.colors.accent
+              color: core.colors.blue
             }],
             components: [
               new ActionRowBuilder()

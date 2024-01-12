@@ -29,7 +29,7 @@ module.exports = {
                       errored = true;
                     }
                   }
-                  return errored ? core.colors.red : core.colors.accent;
+                  return errored ? core.colors.red : core.colors.blue;
                 })()
               }]
             });

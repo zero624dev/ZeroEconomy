@@ -6,7 +6,7 @@ module.exports = {
       core.utils.reply(interaction, {
         embeds: [{
           title: "시로네 전용 테스트 커맨드",
-          color: core.colors.accent
+          color: core.colors.blue
         }]
       });
     });

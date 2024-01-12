@@ -39,7 +39,7 @@ module.exports = {
                   inline: true
                 }
               ],
-              color: matching ? core.colors.accent : core.colors.red
+              color: matching ? core.colors.blue : core.colors.red
             }]
           });
         }).catch(reject);

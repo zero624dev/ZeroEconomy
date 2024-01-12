@@ -48,7 +48,7 @@ function editFishMessage(interaction, c) {
       {
         title: `${interaction.user.username}님의 낚시`,
         description: description,
-        color: isCaught || isMissed ? core.colors.red : core.colors.accent
+        color: isCaught || isMissed ? core.colors.red : core.colors.blue
       }
     ],
     components: isMissed ? [] : [
@@ -92,7 +92,7 @@ module.exports = {
           {
             title: `${interaction.user.username}님의 낚시`,
             description: "💦 낚시찌를 던졌어요.",
-            color: core.colors.accent
+            color: core.colors.blue
           }
         ],
         components: [
@@ -139,7 +139,7 @@ module.exports = {
             {
               title: `${interaction.user.username}님의 낚시`,
               description: "🎣 낚시를 그만두었어요.",
-              color: core.colors.accent
+              color: core.colors.blue
             }
           ],
           components: []
@@ -153,7 +153,7 @@ module.exports = {
               {
                 title: `${interaction.user.username}님의 낚시`,
                 description: "🎣 물고기를 낚았어요.",
-                color: core.colors.accent
+                color: core.colors.blue
               }
             ],
             components: []

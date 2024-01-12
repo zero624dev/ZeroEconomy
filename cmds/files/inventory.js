@@ -17,7 +17,7 @@ module.exports = {
               fields: inventory.map((item) => {
                 return { name: core.addons.data.items[item.id].name, value: `${item.count} 개`, inline: false };
               }),
-              color: core.colors.accent
+              color: core.colors.blue
             }
           ]
         });

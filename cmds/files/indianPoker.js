@@ -40,7 +40,7 @@ module.exports = {
                   url: "https://raw.githubusercontent.com/zero624dev/ZeroBotPlayingCard/main/playingCards/backside.png"
                 },
                 footer: { text: "A < 2-10 < J < Q < K" },
-                color: core.colors.accent
+                color: core.colors.blue
               }
             ],
             components: [
@@ -89,7 +89,7 @@ module.exports = {
           url: `https://raw.githubusercontent.com/zero624dev/ZeroBotPlayingCard/main/playingCards/${symbolName[user[0]]}${user[1]}.png`
         },
         footer: { text: "A < 2-10 < J < Q < K" },
-        color: core.colors.accent,
+        color: core.colors.blue,
       };
 
       if (args[1] === "die") {

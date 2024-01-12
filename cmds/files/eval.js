@@ -4,7 +4,7 @@ module.exports = {
     const { core } = client;
     return new Promise((resolve, reject) => {
       const code = interaction.options.getString("code");
-      interaction.deferReply().then(async () => {
+      interaction.deferReply().then(async() => {
         try {
           let evaled = await eval(code);
           if (typeof evaled !== "string") {
@@ -26,7 +26,7 @@ module.exports = {
                 value: `\`\`\`js\n${evaled.slice(0, 1000)}\`\`\``,
                 inline: false
               }],
-              color: core.colors.accent
+              color: core.colors.blue
             }]
           });
         } catch (e) {

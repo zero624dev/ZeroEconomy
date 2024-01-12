@@ -56,7 +56,7 @@ module.exports = {
                 inline: true
               },
             ],
-            color: core.colors.accent
+            color: core.colors.blue
           }
         ]
       });

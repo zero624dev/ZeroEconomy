@@ -30,7 +30,7 @@ module.exports = {
 
       const outcomeColors = {
         neutral: core.colors.gray,
-        good: core.colors.accent,
+        good: core.colors.blue,
       };
 
       core.addons.econDB.getUserWallet(interaction.user.id)

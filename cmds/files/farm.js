@@ -154,7 +154,7 @@ module.exports = {
                   return c.name == "farm";
                 }).id}>로 농장을 확장할 수 있어요.`,
                 image: { url: "attachment://farm.png" },
-                color: core.colors.accent
+                color: core.colors.blue
               }
             ],
             files: [{

@@ -51,7 +51,7 @@ module.exports = {
                     {
                       title: "출석 보상",
                       description: "> {0}원".format(reward.toLocaleString()),
-                      color: core.colors.accent
+                      color: core.colors.blue
                     }
                   ]
                 });
