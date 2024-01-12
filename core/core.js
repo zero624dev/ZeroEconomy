@@ -3,12 +3,11 @@ const importFresh = require("import-fresh");
 module.exports = {
   info: {
     name: "fulcrum-core",
-    version: "1.4.4",
+    version: "1.5.0",
     description: "core files for realm's discord bots"
   },
   addons: importFresh("./../addons/addons.js"),
   colors: {
-    accent: 32767,
     black: 0,
     blue: 32767,
     gray: 9807270,
