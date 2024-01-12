@@ -1,5 +1,4 @@
 const os = require("os");
-const { ActionRowBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
 
 module.exports = {
   chatInput: (interaction) => {
@@ -12,18 +11,18 @@ module.exports = {
       const memDivisor = 1_073_741_824; // MB: 1_048_576
       const memText = "GB"; // MB
 
-      core.utils.reply(interaction, {
+      resolve({
         embeds: [
           {
-            title: "fulcrum",
+            title: "ZeroEconomy",
             thumbnail: {
               url: client.user.displayAvatarURL()
             },
-            url: "https://discord.com/api/oauth2/authorize?client_id=1177261544363528253&permissions=0&scope=bot+applications.commands",
+            url: "https://discord.com/api/oauth2/authorize?client_id=1176562320323923978&permissions=0&scope=bot+applications.commands",
             fields: [
               {
-                name: "Developer",
-                value: "> @realm2100",
+                name: "Developers",
+                value: ">>> @zero624, @realm2100, @sironemo",
                 inline: true
               },
               {
@@ -43,7 +42,7 @@ module.exports = {
               },
               {
                 name: "Since",
-                value: "> <t:1700751424:D>",
+                value: "> <t:1700584716:D>",
                 inline: true,
               },
               {
@@ -57,17 +56,8 @@ module.exports = {
                 inline: true
               },
             ],
-            color: core.colors.orange
+            color: core.colors.accent
           }
-        ],
-        components: [
-          new ActionRowBuilder()
-            .addComponents(
-              new ButtonBuilder()
-                .setLabel("GitHub")
-                .setURL("https://github.com/realm2100/fulcrum-bot")
-                .setStyle(ButtonStyle.Link)
-            )
         ]
       });
     });

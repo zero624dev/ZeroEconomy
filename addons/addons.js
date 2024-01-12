@@ -1,15 +1,17 @@
 const importFresh = require("import-fresh");
 
 module.exports = {
-  osuApi: {
-    request: importFresh("./files/osuApi/request.js"),
-    home: {
-      search: importFresh("./files/osuApi/home/search.js"),
-    },
-    user: {
-      profile: importFresh("./files/osuApi/user/profile.js"),
-      recent: importFresh("./files/osuApi/user/recent.js"),
-      top: importFresh("./files/osuApi/user/top.js"),
-    }
+  econDB: {
+    addUserInventory: importFresh("./files/econDB/addUserInventory.js"),
+    addUserWallet: importFresh("./files/econDB/addUserWallet.js"),
+    getUser: importFresh("./files/econDB/getUser.js"),
+    getUserInventory: importFresh("./files/econDB/getUserInventory.js"),
+    getUserWallet: importFresh("./files/econDB/getUserWallet.js"),
+    setUser: importFresh("./files/econDB/setUser.js"),
+    subtractUserInventory: importFresh("./files/econDB/subtractUserInventory.js"),
+    subtractUserWallet: importFresh("./files/econDB/subtractUserWallet.js"),
+  },
+  data: {
+    items: importFresh("./files/data/items.js"),
   }
 };

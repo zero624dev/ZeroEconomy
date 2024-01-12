@@ -3,9 +3,7 @@ module.exports = {
     const { core } = interaction.client;
     return new Promise((resolve, reject) => {
       try {
-        interaction.deferReply({
-          ephemeral: true
-        }).then(() => {
+        interaction.deferReply().then(() => {
           core.utils.upload(interaction.client).then((returned) => {
             const { cmdList, status } = returned;
             core.utils.reply(interaction, {
@@ -31,7 +29,7 @@ module.exports = {
                       errored = true;
                     }
                   }
-                  return errored ? core.colors.red : core.colors.orange;
+                  return errored ? core.colors.red : core.colors.accent;
                 })()
               }]
             });

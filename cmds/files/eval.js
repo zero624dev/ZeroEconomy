@@ -26,7 +26,7 @@ module.exports = {
                 value: `\`\`\`js\n${evaled.slice(0, 1000)}\`\`\``,
                 inline: false
               }],
-              color: core.colors.orange
+              color: core.colors.accent
             }]
           });
         } catch (e) {

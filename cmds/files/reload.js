@@ -1,12 +1,4 @@
-const { SlashCommandBuilder } = require("discord.js");
-
 module.exports = {
-  guilds: ["1127549263598059530"],
-  whitelist: ["285229678443102218"],
-  perms: [],
-  data: new SlashCommandBuilder()
-    .setName("reload")
-    .setDescription("reload everything"),
   chatInput: (interaction) => {
     const { core } = interaction.client;
     return new Promise((resolve, reject) => {
@@ -47,7 +39,7 @@ module.exports = {
                 inline: true
               }
             ],
-            color: core.colors.orange
+            color: core.colors.accent
           }]
         });
       }).catch(reject);

@@ -15,7 +15,7 @@ module.exports = {
               color: core.colors.yellow
             }]
           }).then(() => {
-            process.exit(0);
+            client.kill();
           });
         });
       } catch (e) {
